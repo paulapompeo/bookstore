@@ -1,0 +1,46 @@
+NODE.JS
+
+express+nodemon+marko
+
+*Padrão de projeto = DAO
+*Promises
+*Middlewares -> body-parser
+	     -> method-override
+
+
+
+express -> Framework
+nodemon -> para nao ter que reinicializando o servidor
+
+
+comandos:
+
+npm init     -> cria o package.json(define que é um projeto é node)
+npm install express@4.16.3
+npm install nodemon
+
+npm install marko --save   
+
+npm install sqlite3@4.0.2 --save-exact
+
+npm install body-parser
+
+npm install method-override
+
+npm install -> baixa todas as dependencias do projeto 
+
+nom install --save express-validator
+
+
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLElement/dataset
+https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Using_data_attributes
+https://github.com/mapbox/node-sqlite3/wiki/API#databasegetsql-param--callback
+http://expressjs.com/pt-br/guide/using-middleware.html
+https://markojs.com/docs/express/
+https://www.npmjs.com/package/body-parser
+https://express-validator.github.io/docs/
+
+https://github.com/validatorjs/validator.js
+https://github.com/validatorjs/validator.js#validators
