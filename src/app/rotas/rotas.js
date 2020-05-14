@@ -51,9 +51,9 @@ module.exports = (app) => {
         const livroDao = new LivroDao(db);
 
         // Finds the validation errors in this request and wraps them in an object with handy functions
-        const erros = validationResult(req);
+        const errors = validationResult(req);
         
-        if (!erros.isEmpty()){
+        if (!errors.isEmpty()){
             return res.marko(require('../views/livros/form/form.marko'),
             { livro: {} }
             );
